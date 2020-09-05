@@ -32,6 +32,7 @@ a {
 
 p {
     font-size: 1.8rem;
+    line-height: 2;
     font-weight: 300;
 }
 
@@ -293,6 +294,9 @@ li {
 
 .about-text p {
     padding-left: 4rem;
+    line-height: 2;
+    font-family: sans-serif;
+    opacity: 0.9;
 }
 
 
@@ -340,6 +344,11 @@ li {
     transform: rotate(-45deg);
 }
 
+.my-skills p {
+    line-height: 2;
+    font-family: sans-serif;
+}
+
 .portfolio-item {
     display: flex;
     align-items: center;
@@ -372,9 +381,10 @@ li {
 .portfolio-description .cta {
     display: inline-block;
     margin-top: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
-    color: #3883ff;
+    color: red;
+    opacity: 0.8;
     transition: color 650ms;
 }
 
@@ -451,7 +461,27 @@ li {
 /* End Services*/
 
 
-/* Contact Start*/
+/* Contact form Start*/
+
+.status-failure {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+
+.status-success {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: green;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
 
 .contact {
     background-color: #221e3f;
@@ -472,7 +502,7 @@ textarea {
     width: 100%;
     padding: 1rem;
     margin-bottom: 5px;
-    border: none;
+    border-radius: 10px;
     outline-color: #fd57bf;
 }
 
